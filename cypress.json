@@ -1,0 +1,9 @@
+{
+  "video": false,
+  "integrationFolder": "components",
+  "fixturesFolder": false,
+  "testFiles": "**/*.spec.{js,jsx}",
+  "viewportWidth": 500,
+  "viewportHeight": 800,
+  "componentFolder": "components"
+}
