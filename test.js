@@ -1,4 +1,3 @@
 export const test = () => {
-    return "test";
-  },
+  return "test";
 };
