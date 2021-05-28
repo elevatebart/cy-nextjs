@@ -10,7 +10,7 @@ describe("<DisplayRoute />", () => {
     cy.stub(nextRouter, "useRouter").callsFake(() => ({ pathname: "coco" }));
     mount(<DisplayRoute />);
 
-    cy.get("p").should("contain", "cocostory");
+    cy.get("p").should("contain", "cocotest");
   });
 
   it("mocks test", () => {
