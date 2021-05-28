@@ -1,4 +1,6 @@
 module.exports = {
   presets: ["next/babel"],
-  plugins: ["@babel/plugin-transform-modules-commonjs"],
+  ...(process.env.CYPRESS_CT
+    ? { plugins: ["@babel/plugin-transform-modules-commonjs"] }
+    : {}),
 };
